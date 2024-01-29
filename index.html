@@ -12,45 +12,82 @@
             padding: 0;
             background-color: #f8f9fa;
             color: #343a40;
-            text-align: center;
         }
 
         header {
             background-color: #007bff;
             color: #fff;
             padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
         }
 
         section {
             padding: 2em;
+            text-align: left;
         }
 
         footer {
             background-color: #343a40;
             color: #fff;
             padding: 1em;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>莫政雄</h1>
+        <h1>Your Name</h1>
         <p>技术分享与个人展示</p>
     </header>
 
-    <section>
-        <h2>欢迎来到我的个人网页！</h2>
-        <p>我热爱技术，并在这里分享我的经验和见解。浏览我的页面，了解更多关于我的技术兴趣和项目经验。</p>
+    <nav>
+        <a href="#about">关于我</a>
+        <a href="#skills">技能展示</a>
+        <a href="#contact">联系我</a>
+    </nav>
+
+    <section id="about">
+        <h2>关于我</h2>
+        <p>我是一位热衷于技术分享的开发者。在这个空间，我将分享我的技术经验、项目成果以及对新技术的探索。</p>
     </section>
 
-    <section>
-        <h2>技术领域</h2>
-        <p>我对多种技术领域感兴趣，包括但不限于：Web开发、数据科学、人工智能等。持续学习，不断进步。</p>
+    <section id="skills">
+        <h2>技能展示</h2>
+        <ul>
+            <li>Web开发：HTML, CSS, JavaScript</li>
+            <li>前端框架：React, Vue</li>
+            <li>后端开发：Node.js, Express</li>
+            <li>数据库：MongoDB, MySQL</li>
+            <li>数据科学：Python, Pandas, NumPy</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>联系我</h2>
+        <p>如果你有任何问题或合作意向，欢迎通过以下方式联系我：</p>
+        <ul>
+            <li>Email: yourname@example.com</li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+            <li>Twitter: <a href="https://twitter.com/yourtwitter" target="_blank">@yourtwitter</a></li>
+        </ul>
     </section>
 
     <footer>
-        <p>联系方式：you@example.com | GitHub: github.com/yourusername | Twitter: @yourtwitter</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
 </body>
 
